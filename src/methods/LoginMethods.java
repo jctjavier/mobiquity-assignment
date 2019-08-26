@@ -49,9 +49,10 @@ public class LoginMethods {
 	 * Method to verify that the Login Page is displayed
 	 */
 	public static void verifyLoginPageDisplayed() {
+		initializeLoginPage();
 		String text = "";
 
-		if (loginPage.usernameInput.isEnabled()) {
+		if (loginPage.usernameInput.isEnabled() && loginPage.usernameInput.isDisplayed()) {
 			Logger.logTestScript("Verify that the username input field is displayed.",
 					"Username input should be successfully displayed.", "Username input was successfully displayed.",
 					Constant.PASSED);
@@ -62,7 +63,7 @@ public class LoginMethods {
 			text = text + "Username Input field,";
 		}
 
-		if (loginPage.passwordInput.isEnabled()) {
+		if (loginPage.passwordInput.isEnabled() && loginPage.usernameInput.isDisplayed()) {
 			Logger.logTestScript("Verify that the password input field is displayed.",
 					"Password input should be successfully displayed.", "Password input was successfully displayed.",
 					Constant.PASSED);
@@ -73,7 +74,7 @@ public class LoginMethods {
 			text = text + " Password Input field,";
 		}
 
-		if (loginPage.submitBtn.isEnabled()) {
+		if (loginPage.submitBtn.isEnabled() && loginPage.usernameInput.isDisplayed()) {
 			Logger.logTestScript("Verify that the submit button is displayed.",
 					"Submit button should be successfully displayed.", "Password input was successfully displayed.",
 					Constant.PASSED);

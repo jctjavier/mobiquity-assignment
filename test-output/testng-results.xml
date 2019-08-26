@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="4" ignored="2" total="6" passed="0">
   <reporter-output>
     <line>
       <![CDATA[=====Browser Session Started=====]]>
@@ -8,7 +8,7 @@
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -17,7 +17,7 @@
       <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
@@ -35,7 +35,7 @@
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -44,7 +44,7 @@
       <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font>]]>
@@ -62,7 +62,7 @@
       <![CDATA[=====Application Started=====]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -71,7 +71,7 @@
       <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
     </line>
     <line>
-      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
     </line>
     <line>
       <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
@@ -85,22 +85,67 @@
     <line>
       <![CDATA[=====Session End=====]]>
     </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="red"><b><b>Verify that the user is able to click logout.</b><br>Expected Result: User should be able to click logout.<br>Actual Result: User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S02_01_SuccessfulLogout--]]>
+    </line>
+    <line>
+      <![CDATA[=====Session End=====]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="19260" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:55Z">
+  <suite name="Suite" duration-ms="29505" started-at="2019-08-26T15:14:52Z" finished-at="2019-08-26T15:15:21Z">
     <groups>
+      <group name="Logout">
+        <method signature="S02_Logout.S02_01_SuccessfulLogout()[pri:0, instance:test.S02_Logout@8e24743]" name="S02_01_SuccessfulLogout" class="test.S02_Logout"/>
+      </group> <!-- Logout -->
       <group name="Login">
-        <method signature="S01_Login.S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_01_SuccessfulLogin" class="test.S01_Login"/>
-        <method signature="S01_Login.S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_02_InvalidUsername" class="test.S01_Login"/>
-        <method signature="S01_Login.S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_03_InvalidPassword" class="test.S01_Login"/>
+        <method signature="S01_Login.S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_01_SuccessfulLogin" class="test.S01_Login"/>
+        <method signature="S01_Login.S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_02_InvalidUsername" class="test.S01_Login"/>
+        <method signature="S01_Login.S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_03_InvalidPassword" class="test.S01_Login"/>
       </group> <!-- Login -->
     </groups>
-    <test name="Search" duration-ms="19260" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:55Z">
+    <test name="Mobiquity" duration-ms="29505" started-at="2019-08-26T15:14:52Z" finished-at="2019-08-26T15:15:21Z">
       <class name="test.S01_Login">
-        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.S01_Login@5891e32e]" name="startSuite" is-config="true" duration-ms="504" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:35Z">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.S01_Login@cb0ed20]" name="startSuite" is-config="true" duration-ms="506" started-at="2019-08-26T15:14:51Z" finished-at="2019-08-26T15:14:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startSuite -->
-        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="23" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:35Z">
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@cb0ed20]" name="startMethod" is-config="true" duration-ms="16" started-at="2019-08-26T15:14:52Z" finished-at="2019-08-26T15:14:52Z">
           <params>
             <param index="0">
               <value>
@@ -111,7 +156,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startMethod -->
-        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="4974" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:40Z">
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@cb0ed20]" name="startSetup" is-config="true" duration-ms="4765" started-at="2019-08-26T15:14:52Z" finished-at="2019-08-26T15:14:57Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -121,10 +166,55 @@
             </line>
           </reporter-output>
         </test-method> <!-- startSetup -->
-        <test-method status="PASS" signature="S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_01_SuccessfulLogin" duration-ms="2477" started-at="2019-08-26T14:08:40Z" description="Verify that the user is able to successfully log in to the website" finished-at="2019-08-26T14:08:43Z">
+        <test-method status="FAIL" signature="S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_01_SuccessfulLogin" duration-ms="3816" started-at="2019-08-26T15:14:57Z" description="Verify that the user is able to successfully log in to the website" finished-at="2019-08-26T15:15:00Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+at org.testng.Assert.fail(Assert.java:96)
+at main.Logger.validateTestCase(Logger.java:164)
+at test.S01_Login.S01_01_SuccessfulLogin(S01_Login.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -133,7 +223,7 @@
               <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
             </line>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
@@ -143,14 +233,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- S01_01_SuccessfulLogin -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="268" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:43Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@cb0ed20]" name="afterMethod" is-config="true" duration-ms="277" started-at="2019-08-26T15:15:00Z" finished-at="2019-08-26T15:15:01Z">
           <reporter-output>
             <line>
               <![CDATA[--Closing S01_01_SuccessfulLogin--]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:43Z">
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@cb0ed20]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T15:15:01Z" finished-at="2019-08-26T15:15:01Z">
           <params>
             <param index="0">
               <value>
@@ -161,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startMethod -->
-        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="2611" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:46Z">
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@cb0ed20]" name="startSetup" is-config="true" duration-ms="2493" started-at="2019-08-26T15:15:01Z" finished-at="2019-08-26T15:15:03Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -171,10 +261,55 @@
             </line>
           </reporter-output>
         </test-method> <!-- startSetup -->
-        <test-method status="PASS" signature="S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_02_InvalidUsername" duration-ms="2654" started-at="2019-08-26T14:08:46Z" description="Verify that the user is unable to log in to the website with invalid username" finished-at="2019-08-26T14:08:48Z">
+        <test-method status="FAIL" signature="S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_02_InvalidUsername" duration-ms="3788" started-at="2019-08-26T15:15:03Z" description="Verify that the user is unable to log in to the website with invalid username" finished-at="2019-08-26T15:15:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+at org.testng.Assert.fail(Assert.java:96)
+at main.Logger.validateTestCase(Logger.java:164)
+at test.S01_Login.S01_02_InvalidUsername(S01_Login.java:38)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -183,7 +318,7 @@
               <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
             </line>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font>]]>
@@ -193,14 +328,14 @@
             </line>
           </reporter-output>
         </test-method> <!-- S01_02_InvalidUsername -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="267" started-at="2019-08-26T14:08:48Z" finished-at="2019-08-26T14:08:49Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@cb0ed20]" name="afterMethod" is-config="true" duration-ms="164" started-at="2019-08-26T15:15:07Z" finished-at="2019-08-26T15:15:07Z">
           <reporter-output>
             <line>
               <![CDATA[--Closing S01_02_InvalidUsername--]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:49Z" finished-at="2019-08-26T14:08:49Z">
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@cb0ed20]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T15:15:07Z" finished-at="2019-08-26T15:15:07Z">
           <params>
             <param index="0">
               <value>
@@ -211,7 +346,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startMethod -->
-        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="2717" started-at="2019-08-26T14:08:49Z" finished-at="2019-08-26T14:08:51Z">
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@cb0ed20]" name="startSetup" is-config="true" duration-ms="2617" started-at="2019-08-26T15:15:07Z" finished-at="2019-08-26T15:15:10Z">
           <reporter-output>
             <line>
               <![CDATA[=====Browser Session Started=====]]>
@@ -221,10 +356,55 @@
             </line>
           </reporter-output>
         </test-method> <!-- startSetup -->
-        <test-method status="PASS" signature="S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_03_InvalidPassword" duration-ms="2849" started-at="2019-08-26T14:08:51Z" description="Verify that the user is unable to log in to the website with invalid password" finished-at="2019-08-26T14:08:54Z">
+        <test-method status="FAIL" signature="S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@cb0ed20]" name="S01_03_InvalidPassword" duration-ms="3576" started-at="2019-08-26T15:15:10Z" description="Verify that the user is unable to log in to the website with invalid password" finished-at="2019-08-26T15:15:13Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+at org.testng.Assert.fail(Assert.java:96)
+at main.Logger.validateTestCase(Logger.java:164)
+at test.S01_Login.S01_03_InvalidPassword(S01_Login.java:49)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
@@ -233,7 +413,7 @@
               <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
             </line>
             <line>
-              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
             </line>
             <line>
               <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
@@ -243,25 +423,161 @@
             </line>
           </reporter-output>
         </test-method> <!-- S01_03_InvalidPassword -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="332" started-at="2019-08-26T14:08:54Z" finished-at="2019-08-26T14:08:55Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@cb0ed20]" name="afterMethod" is-config="true" duration-ms="372" started-at="2019-08-26T15:15:13Z" finished-at="2019-08-26T15:15:14Z">
           <reporter-output>
             <line>
               <![CDATA[--Closing S01_03_InvalidPassword--]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.S01_Login@5891e32e]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:55Z" finished-at="2019-08-26T14:08:55Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.S01_Login@cb0ed20]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-26T15:15:14Z" finished-at="2019-08-26T15:15:14Z">
           <reporter-output>
             <line>
               <![CDATA[=====Session End=====]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.S01_Login@5891e32e]" name="endSuite" is-config="true" duration-ms="1461" started-at="2019-08-26T14:08:55Z" finished-at="2019-08-26T14:08:56Z">
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.S01_Login@cb0ed20]" name="endSuite" is-config="true" duration-ms="1312" started-at="2019-08-26T15:15:21Z" finished-at="2019-08-26T15:15:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->
       </class> <!-- test.S01_Login -->
-    </test> <!-- Search -->
+      <class name="test.S02_Logout">
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S02_Logout@8e24743]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T15:15:14Z" finished-at="2019-08-26T15:15:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S02_Logout.S02_01_SuccessfulLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S02_Logout@8e24743]" name="startSetup" is-config="true" duration-ms="2582" started-at="2019-08-26T15:15:14Z" finished-at="2019-08-26T15:15:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="FAIL" signature="S02_01_SuccessfulLogout()[pri:0, instance:test.S02_Logout@8e24743]" name="S02_01_SuccessfulLogout" duration-ms="4515" started-at="2019-08-26T15:15:16Z" description="Verify that the user is able to successfully log out to the website" finished-at="2019-08-26T15:15:21Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+ - User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+ - User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419
+
+at org.testng.Assert.fail(Assert.java:96)
+at main.Logger.validateTestCase(Logger.java:164)
+at test.S02_Logout.S02_01_SuccessfulLogout(S02_Logout.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="red"><b><b>Verify that the user is able to click logout.</b><br>Expected Result: User should be able to click logout.<br>Actual Result: User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S02_01_SuccessfulLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S02_Logout@8e24743]" name="afterMethod" is-config="true" duration-ms="427" started-at="2019-08-26T15:15:21Z" finished-at="2019-08-26T15:15:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S02_01_SuccessfulLogout--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.S02_Logout@8e24743]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-08-26T15:15:21Z" finished-at="2019-08-26T15:15:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- test.S02_Logout -->
+    </test> <!-- Mobiquity -->
   </suite> <!-- Suite -->
 </testng-results>

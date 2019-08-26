@@ -9,7 +9,11 @@ import main.Utils;
 import methods.LoginMethods;
 import utils.ProjectConstant;
 
-
+/**
+ * Test Cases for Log In Scenarios
+ * @author jctjavier
+ *
+ */
 public class S01_Login extends BaseClass {
 	
 	

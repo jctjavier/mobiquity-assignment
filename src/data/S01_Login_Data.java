@@ -1,5 +1,10 @@
 package data;
 
+/**
+ * Class that includes test data to be used for S01_Login
+ * @author jctjavier
+ *
+ */
 public class S01_Login_Data {
 	public static String valid_username = "Luke";
 	public static String valid_password = "Skywalker";

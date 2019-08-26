@@ -1,0 +1,341 @@
+<html>
+<head>
+<title>TestNG:  Mobiquity</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Mobiquity</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 26 17:14:52 CEST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29505 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.S01_Login.S01_01_SuccessfulLogin()'><b>S01_01_SuccessfulLogin</b><br>Test class: test.S01_Login<br>Test method: Verify that the user is able to successfully log in to the website<br/>
+<a href="#Output-145581669" onClick='toggleBox("Output-145581669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-145581669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-145581669">
+Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font><br/>
+Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_01_SuccessfulLogin(S01_Login.java:27)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace145581669", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace145581669'><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at org.testng.Assert.fail(Assert.java:96)
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_01_SuccessfulLogin(S01_Login.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>test.S01_Login@cb0ed20</td></tr>
+<tr>
+<td title='test.S01_Login.S01_02_InvalidUsername()'><b>S01_02_InvalidUsername</b><br>Test class: test.S01_Login<br>Test method: Verify that the user is unable to log in to the website with invalid username<br/>
+<a href="#Output-67730604" onClick='toggleBox("Output-67730604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67730604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67730604">
+Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font><br/>
+Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_02_InvalidUsername(S01_Login.java:38)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace67730604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace67730604'><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at org.testng.Assert.fail(Assert.java:96)
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_02_InvalidUsername(S01_Login.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>test.S01_Login@cb0ed20</td></tr>
+<tr>
+<td title='test.S01_Login.S01_03_InvalidPassword()'><b>S01_03_InvalidPassword</b><br>Test class: test.S01_Login<br>Test method: Verify that the user is unable to log in to the website with invalid password<br/>
+<a href="#Output-1907604549" onClick='toggleBox("Output-1907604549", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1907604549" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907604549">
+Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font><br/>
+Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_03_InvalidPassword(S01_Login.java:49)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1907604549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1907604549'><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+
+	at org.testng.Assert.fail(Assert.java:96)
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S01_Login.S01_03_InvalidPassword(S01_Login.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>3</td>
+<td>test.S01_Login@cb0ed20</td></tr>
+<tr>
+<td title='test.S02_Logout.S02_01_SuccessfulLogout()'><b>S02_01_SuccessfulLogout</b><br>Test class: test.S02_Logout<br>Test method: Verify that the user is able to successfully log out to the website<br/>
+<a href="#Output-1377301456" onClick='toggleBox("Output-1377301456", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1377301456" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1377301456">
+Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font><br/>
+Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font><br/>
+Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font><br/>
+Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font><br/>
+Status: <font color="red"><b><b>Verify that the user is able to click logout.</b><br>Expected Result: User should be able to click logout.<br>Actual Result: User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
+      employees:'main-view-wrapper-employees',
+      edit:'main-view-wrapper-edit',
+      create:'main-view-wrapper-create'}[viewState.current]">...</div>
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419</b></font><br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+ - User was NOT able to click logout. Error message: element click intercepted: Element &lt;p class=&quot;main-button&quot; ng-click=&quot;logout()&quot;&gt;...&lt;/p&gt; is not clickable at point (930, 245). Other element would receive the click: &lt;div class=&quot;main-view-wrapper main-view-wrapper-loggedIn&quot; ng-class=&quot;{login:&apos;main-view-wrapper-loggedIn&apos;,
+      employees:&apos;main-view-wrapper-employees&apos;,
+      edit:&apos;main-view-wrapper-edit&apos;,
+      create:&apos;main-view-wrapper-create&apos;}[viewState.current]&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ML-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419
+
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S02_Logout.S02_01_SuccessfulLogout(S02_Logout.java:29)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1377301456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1377301456'><pre>java.lang.AssertionError: 
+Failed Steps: 
+ - Username input was NOT displayed.
+ - Login page was not properly displayed. The following elements were missing: Username Input field,
+ - User was NOT able to click logout. Error message: element click intercepted: Element &lt;p class=&quot;main-button&quot; ng-click=&quot;logout()&quot;&gt;...&lt;/p&gt; is not clickable at point (930, 245). Other element would receive the click: &lt;div class=&quot;main-view-wrapper main-view-wrapper-loggedIn&quot; ng-class=&quot;{login:&apos;main-view-wrapper-loggedIn&apos;,
+      employees:&apos;main-view-wrapper-employees&apos;,
+      edit:&apos;main-view-wrapper-edit&apos;,
+      create:&apos;main-view-wrapper-create&apos;}[viewState.current]&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=76.0.3809.100)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;ML-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b9c1fcfed5330b8d05df48451cb2a419
+
+	at org.testng.Assert.fail(Assert.java:96)
+	at main.Logger.validateTestCase(Logger.java:164)
+	at test.S02_Logout.S02_01_SuccessfulLogout(S02_Logout.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>4</td>
+<td>test.S02_Logout@8e24743</td></tr>
+</table><p>
+</body>
+</html>

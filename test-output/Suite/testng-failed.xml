@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="10" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="10" name="Search(failed)">
+  <test thread-count="10" name="Mobiquity(failed)">
     <classes>
       <class name="test.S01_Login">
         <methods>
@@ -10,11 +10,23 @@
           <include name="S01_02_InvalidUsername"/>
           <include name="S01_03_InvalidPassword"/>
           <include name="afterMethod"/>
+          <include name="S01_01_SuccessfulLogin"/>
           <include name="endSuite"/>
           <include name="startSetup"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- test.S01_Login -->
+      <class name="test.S02_Logout">
+        <methods>
+          <include name="startMethod"/>
+          <include name="startSuite"/>
+          <include name="afterMethod"/>
+          <include name="endSuite"/>
+          <include name="startSetup"/>
+          <include name="afterClass"/>
+          <include name="S02_01_SuccessfulLogout"/>
+        </methods>
+      </class> <!-- test.S02_Logout -->
     </classes>
-  </test> <!-- Search(failed) -->
+  </test> <!-- Mobiquity(failed) -->
 </suite> <!-- Failed suite [Suite] -->
