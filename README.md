@@ -1,9 +1,9 @@
 # mobiquity-assignment
 ##### status : *incomplete*
 ### Test Scenarios Covered
-##### Verify that the user is able to successfully login to Cafe Townsend with valid credentials
-##### Verify that the user is unable to login to Cafe Townsend with invalid credentials
-##### Verify that an error message is displayed when invalid credentials are submitted
+- Verify that the user is able to successfully login to Cafe Townsend with valid credentials
+- Verify that the user is unable to login to Cafe Townsend with invalid credentials
+- Verify that an error message is displayed when invalid credentials are submitted
 
 ### Pre-requisites
 - Java JDK installed and added to environment variables
