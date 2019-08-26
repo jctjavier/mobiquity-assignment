@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 4 failed,   </span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,25 +102,34 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_01_SuccessfulLogin">S01_01_SuccessfulLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_02_InvalidUsername">S01_02_InvalidUsername</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_03_InvalidPassword">S01_03_InvalidPassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="failed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S02_Logout" hash-for-method="S02_01_SuccessfulLogout">S02_01_SuccessfulLogout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_01_SuccessfulLogin">S01_01_SuccessfulLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_02_InvalidUsername">S01_02_InvalidUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="test.S01_Login" hash-for-method="S01_03_InvalidPassword">S01_03_InvalidPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -135,68 +144,6 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">test.S01_Login</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="S01_01_SuccessfulLogin">
-                  </a> <!-- S01_01_SuccessfulLogin -->
-                  <span class="method-name">S01_01_SuccessfulLogin</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Failed Steps: 
- - Username input was NOT displayed.
- - Login page was not properly displayed. The following elements were missing: Username Input field,
-
-	at main.Logger.validateTestCase(Logger.java:164)
-	at test.S01_Login.S01_01_SuccessfulLogin(S01_Login.java:27)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify that the user is able to successfully log in to the website)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="S01_02_InvalidUsername">
-                  </a> <!-- S01_02_InvalidUsername -->
-                  <span class="method-name">S01_02_InvalidUsername</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Failed Steps: 
- - Username input was NOT displayed.
- - Login page was not properly displayed. The following elements were missing: Username Input field,
-
-	at main.Logger.validateTestCase(Logger.java:164)
-	at test.S01_Login.S01_02_InvalidUsername(S01_Login.java:38)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify that the user is unable to log in to the website with invalid username)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="S01_03_InvalidPassword">
-                  </a> <!-- S01_03_InvalidPassword -->
-                  <span class="method-name">S01_03_InvalidPassword</span>
-                  <div class="stack-trace">java.lang.AssertionError: 
-Failed Steps: 
- - Username input was NOT displayed.
- - Login page was not properly displayed. The following elements were missing: Username Input field,
-
-	at main.Logger.validateTestCase(Logger.java:164)
-	at test.S01_Login.S01_03_InvalidPassword(S01_Login.java:49)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(Verify that the user is unable to log in to the website with invalid password)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
               <span class="class-name">test.S02_Logout</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -207,8 +154,6 @@ Failed Steps:
                   <span class="method-name">S02_01_SuccessfulLogout</span>
                   <div class="stack-trace">java.lang.AssertionError: 
 Failed Steps: 
- - Username input was NOT displayed.
- - Login page was not properly displayed. The following elements were missing: Username Input field,
  - User was NOT able to click logout. Error message: element click intercepted: Element &lt;p class=&quot;main-button&quot; ng-click=&quot;logout()&quot;&gt;...&lt;/p&gt; is not clickable at point (930, 245). Other element would receive the click: &lt;div class=&quot;main-view-wrapper main-view-wrapper-loggedIn&quot; ng-class=&quot;{login:&apos;main-view-wrapper-loggedIn&apos;,
       employees:&apos;main-view-wrapper-employees&apos;,
       edit:&apos;main-view-wrapper-edit&apos;,
@@ -217,8 +162,8 @@ Failed Steps:
 Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
 System info: host: &apos;ML-HP&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b9c1fcfed5330b8d05df48451cb2a419
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5e2d52a50b18d655089ca1e0d8b505d
 
 	at main.Logger.validateTestCase(Logger.java:164)
 	at test.S02_Logout.S02_01_SuccessfulLogout(S02_Logout.java:29)
@@ -230,6 +175,41 @@ Session ID: b9c1fcfed5330b8d05df48451cb2a419
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.S01_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="S01_01_SuccessfulLogin">
+                  </a> <!-- S01_01_SuccessfulLogin -->
+                  <span class="method-name">S01_01_SuccessfulLogin</span>
+                  <em>
+(Verify that the user is able to successfully log in to the website)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="S01_02_InvalidUsername">
+                  </a> <!-- S01_02_InvalidUsername -->
+                  <span class="method-name">S01_02_InvalidUsername</span>
+                  <em>
+(Verify that the user is unable to log in to the website with invalid username)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="S01_03_InvalidPassword">
+                  </a> <!-- S01_03_InvalidPassword -->
+                  <span class="method-name">S01_03_InvalidPassword</span>
+                  <em>
+(Verify that the user is unable to log in to the website with invalid password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -311,24 +291,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'S02_01_SuccessfulLogout')
 data.setCell(0, 2, 'test.S02_Logout')
-data.setCell(0, 3, 4515);
+data.setCell(0, 3, 3079);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'S01_01_SuccessfulLogin')
 data.setCell(1, 2, 'test.S01_Login')
-data.setCell(1, 3, 3816);
+data.setCell(1, 3, 2511);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'S01_02_InvalidUsername')
+data.setCell(2, 1, 'S01_03_InvalidPassword')
 data.setCell(2, 2, 'test.S01_Login')
-data.setCell(2, 3, 3788);
+data.setCell(2, 3, 2371);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'S01_03_InvalidPassword')
+data.setCell(3, 1, 'S01_02_InvalidUsername')
 data.setCell(3, 2, 'test.S01_Login')
-data.setCell(3, 3, 3576);
+data.setCell(3, 3, 2251);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -340,12 +320,23 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">S01_02_InvalidUsername</span>
+              <span class="reporter-method-name">S01_01_SuccessfulLogin</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">S01_02_InvalidUsername</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font></span>
               </div> <!-- reporter-method-output-div -->
@@ -353,10 +344,10 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">S01_03_InvalidPassword</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font></span>
               </div> <!-- reporter-method-output-div -->
@@ -364,10 +355,10 @@ return data;
             <div class="reporter-method-div">
               <span class="reporter-method-name">S02_01_SuccessfulLogout</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font></span>
+                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font></span>
                 <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the user is able to click logout.</b><br>Expected Result: User should be able to click logout.<br>Actual Result: User was NOT able to click logout. Error message: element click intercepted: Element <p class="main-button" ng-click="logout()">...</p> is not clickable at point (930, 245). Other element would receive the click: <div class="main-view-wrapper main-view-wrapper-loggedIn" ng-class="{login:'main-view-wrapper-loggedIn',
@@ -378,19 +369,8 @@ return data;
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'ML-HP', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55065}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b9c1fcfed5330b8d05df48451cb2a419</b></font></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">S01_01_SuccessfulLogin</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was NOT displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="red"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was not properly displayed. The following elements were missing: Username Input field,</b></font></span>
-                <span class="reporter-method-output">Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font></span>
-                <span class="reporter-method-output">Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font></span>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\Looijen\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55280}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5e2d52a50b18d655089ca1e0d8b505d</b></font></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -424,93 +404,87 @@ Session ID: b9c1fcfed5330b8d05df48451cb2a419</b></font></span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">startMethod(public void test.S01_Login.S01_01_SuccessfulLogin())</span>
-                <span class="method-start">565 ms</span>
+                <span class="method-start">462 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startSetup</span>
-                <span class="method-start">582 ms</span>
+                <span class="method-start">480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">S01_01_SuccessfulLogin</span>
-                <span class="method-start">5347 ms</span>
+                <span class="method-start">5305 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">9171 ms</span>
+                <span class="method-start">7822 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startMethod(public void test.S01_Login.S01_02_InvalidUsername())</span>
-                <span class="method-start">9450 ms</span>
+                <span class="method-start">8256 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startSetup</span>
-                <span class="method-start">9451 ms</span>
+                <span class="method-start">8257 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">S01_02_InvalidUsername</span>
-                <span class="method-start">11944 ms</span>
+                <span class="method-start">10988 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">15738 ms</span>
+                <span class="method-start">13242 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startMethod(public void test.S01_Login.S01_03_InvalidPassword())</span>
-                <span class="method-start">15903 ms</span>
+                <span class="method-start">13487 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startSetup</span>
-                <span class="method-start">15904 ms</span>
+                <span class="method-start">13488 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">S01_03_InvalidPassword</span>
-                <span class="method-start">18521 ms</span>
+                <span class="method-start">16035 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">22100 ms</span>
+                <span class="method-start">18409 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">22473 ms</span>
+                <span class="method-start">18608 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.S02_Logout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startMethod(public void test.S02_Logout.S02_01_SuccessfulLogout())</span>
-                <span class="method-start">22482 ms</span>
+                <span class="method-start">18614 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">startSetup</span>
-                <span class="method-start">22483 ms</span>
+                <span class="method-start">18616 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">S02_01_SuccessfulLogout</span>
-                <span class="method-start">25065 ms</span>
+                <span class="method-start">21171 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">29583 ms</span>
+                <span class="method-start">24277 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">30010 ms</span>
+                <span class="method-start">24667 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.S01_Login</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">endSuite</span>
-                <span class="method-start">30130 ms</span>
+                <span class="method-start">24813 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
