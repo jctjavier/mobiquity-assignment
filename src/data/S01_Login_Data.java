@@ -1,7 +1,7 @@
 package data;
 
 /**
- * Class that includes test data to be used for S01_Login
+ * Class that includes test data to be used for S01_Login and S02_Logout
  * @author jctjavier
  *
  */

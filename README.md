@@ -64,6 +64,12 @@ Below are the versions used for this project:
 * TestNG 6.14.3
 * Extent Reports 2.41.2
 
+### Thought Process
+* I had already created a common repository using TestNG and Selenium as part of the framework. It is far from refined, and I've had to tweak it when I started this assignment. 
+* I have decided to use a page object model framework, since I was dealing with a web application.
+* I have included comments in the code to explain what each class and method is for.
+* There are classes and elements that are not used and with TODO tags, since I initially decided to work with extra test cases. However, due to time constraints, I have decided to work with less. 
+
 ### Troubleshooting
 1. Verify that web driver binaries are compatible to browsers used
 
