@@ -7,11 +7,15 @@
 - Verify that an error message is displayed when invalid credentials are submitted
 - Verify that the user is able to log out successfully
 
-### Additional Details
+### Project Details
 - This project utilizes an external repository as a maven dependency:
 ```
 https://github.com/jctjavier/common
 ```
+- This project utilizes TestNG as the testing framework.
+- This project utilizes Maven as the project management tool / package/dependency manager.
+- This project utilizes Java as the main programming language.
+- This project utilizes Selenium as the main web driver for the web browsers. 
 
 ### Pre-requisites
 - Java JDK installed and added to environment variables
