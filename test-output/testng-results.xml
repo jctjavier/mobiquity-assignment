@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S01_01_SuccessfulLogin--]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S01_02_InvalidUsername--]]>
+    </line>
+    <line>
+      <![CDATA[=====Browser Session Started=====]]>
+    </line>
+    <line>
+      <![CDATA[=====Application Started=====]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font>]]>
+    </line>
+    <line>
+      <![CDATA[--Closing S01_03_InvalidPassword--]]>
+    </line>
+    <line>
+      <![CDATA[=====Session End=====]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19260" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:55Z">
+    <groups>
+      <group name="Login">
+        <method signature="S01_Login.S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_01_SuccessfulLogin" class="test.S01_Login"/>
+        <method signature="S01_Login.S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_02_InvalidUsername" class="test.S01_Login"/>
+        <method signature="S01_Login.S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_03_InvalidPassword" class="test.S01_Login"/>
+      </group> <!-- Login -->
+    </groups>
+    <test name="Search" duration-ms="19260" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:55Z">
+      <class name="test.S01_Login">
+        <test-method status="PASS" signature="startSuite()[pri:0, instance:test.S01_Login@5891e32e]" name="startSuite" is-config="true" duration-ms="504" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSuite -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="23" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S01_Login.S01_01_SuccessfulLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="4974" started-at="2019-08-26T14:08:35Z" finished-at="2019-08-26T14:08:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="S01_01_SuccessfulLogin()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_01_SuccessfulLogin" duration-ms="2477" started-at="2019-08-26T14:08:40Z" description="Verify that the user is able to successfully log in to the website" finished-at="2019-08-26T14:08:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the user is successfully logged in.</b><br>Expected Result: User should be successfully logged in.<br>Actual Result: User Luke was successfully logged in.</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S01_01_SuccessfulLogin -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="268" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:43Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S01_01_SuccessfulLogin--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S01_Login.S01_02_InvalidUsername()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="2611" started-at="2019-08-26T14:08:43Z" finished-at="2019-08-26T14:08:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="S01_02_InvalidUsername()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_02_InvalidUsername" duration-ms="2654" started-at="2019-08-26T14:08:46Z" description="Verify that the user is unable to log in to the website with invalid username" finished-at="2019-08-26T14:08:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User luke was able to submit credentials.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S01_02_InvalidUsername -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="267" started-at="2019-08-26T14:08:48Z" finished-at="2019-08-26T14:08:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S01_02_InvalidUsername--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="startMethod(java.lang.reflect.Method)[pri:0, instance:test.S01_Login@5891e32e]" name="startMethod" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:49Z" finished-at="2019-08-26T14:08:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.S01_Login.S01_03_InvalidPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startMethod -->
+        <test-method status="PASS" signature="startSetup()[pri:0, instance:test.S01_Login@5891e32e]" name="startSetup" is-config="true" duration-ms="2717" started-at="2019-08-26T14:08:49Z" finished-at="2019-08-26T14:08:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Browser Session Started=====]]>
+            </line>
+            <line>
+              <![CDATA[=====Application Started=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startSetup -->
+        <test-method status="PASS" signature="S01_03_InvalidPassword()[pri:0, instance:test.S01_Login@5891e32e]" name="S01_03_InvalidPassword" duration-ms="2849" started-at="2019-08-26T14:08:51Z" description="Verify that the user is unable to log in to the website with invalid password" finished-at="2019-08-26T14:08:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the username input field is displayed.</b><br>Expected Result: Username input should be successfully displayed.<br>Actual Result: Username input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the password input field is displayed.</b><br>Expected Result: Password input should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the submit button is displayed.</b><br>Expected Result: Submit button should be successfully displayed.<br>Actual Result: Password input was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the login page is displayed.</b><br>Expected Result: Login page should be successfully displayed.<br>Actual Result: Login page was successfully displayed.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="black"><b><b>Verify that the user is able to submit credentials.</b><br>Expected Result: User should be able to submit credentials.<br>Actual Result: User Luke was able to submit credentials.</b></font>]]>
+            </line>
+            <line>
+              <![CDATA[Status: <font color="green"><b><b>Verify that the error message is displayed when attempting to log in with incorrect credentials.</b><br>Expected Result: Error message should be displayed.<br>Actual Result: Error message was successfully displayed: Invalid username or password!</b></font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- S01_03_InvalidPassword -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.S01_Login@5891e32e]" name="afterMethod" is-config="true" duration-ms="332" started-at="2019-08-26T14:08:54Z" finished-at="2019-08-26T14:08:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[--Closing S01_03_InvalidPassword--]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.S01_Login@5891e32e]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-08-26T14:08:55Z" finished-at="2019-08-26T14:08:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Session End=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="endSuite()[pri:0, instance:test.S01_Login@5891e32e]" name="endSuite" is-config="true" duration-ms="1461" started-at="2019-08-26T14:08:55Z" finished-at="2019-08-26T14:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endSuite -->
+      </class> <!-- test.S01_Login -->
+    </test> <!-- Search -->
+  </suite> <!-- Suite -->
+</testng-results>
